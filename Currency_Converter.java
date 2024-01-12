@@ -3,8 +3,6 @@ package converters;
 import java.util.*;
 import java.util.Scanner;
 
-import java.text.DecimalFormat;
-
 public class Currency_Converter {
 
 	double inr, dollar, yen, euro;  
