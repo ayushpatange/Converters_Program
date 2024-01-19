@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Time_Converter {
 
+	// Variables For Time converter.
+	
 	int hours;
 	int minutes;
 	int seconds;
@@ -67,7 +69,7 @@ public class Time_Converter {
 			
 			int type = sc.nextInt();
 			
-			if(type == 1) 
+			if(type == 1)    //  Hours To Minutes Conversion.
 			{
 				System.out.println(" == Hours To Minutes Conversion == ");
 				System.out.println("Enter Hours  : ");
@@ -76,7 +78,7 @@ public class Time_Converter {
 				System.out.println(m1 + " Hours Is Equals To = " + dc1 + " Minutes");
 				System.out.println();
 			}
-			else if( type == 2) 
+			else if( type == 2)   //Hours To Seconds Conversion.
 			{
 				System.out.println(" == Hours To Seconds Conversion == ");
 				System.out.println("Enter Hours  : ");
@@ -85,7 +87,7 @@ public class Time_Converter {
 				System.out.println(m1 + " Hours Is Equals To = " + dc1 + " Seconds");
 				System.out.println();
 			}
-			else if( type == 3) 
+			else if( type == 3)   //  Minutes To Hours Conversion.
 			{
 				System.out.println(" == Minutes To Hours Conversion == ");
 				System.out.println("Enter Minutes  : ");
@@ -94,7 +96,7 @@ public class Time_Converter {
 				System.out.println(m1 + " Minutes Is Equals To = " + dc1 + " Hours");
 				System.out.println();
 			}
-			else if( type == 4) 
+			else if( type == 4) // Minutes To Seconds Conversion .
 			{
 				System.out.println(" == Minutes To Seconds Conversion == ");
 				System.out.println("Enter Minutes  : ");
@@ -103,7 +105,7 @@ public class Time_Converter {
 				System.out.println(m1 + " Minutes Is Equals To = " + dc1 + " Seconds");
 				System.out.println();
 			}
-			else if( type == 5) 
+			else if( type == 5)   // Seconds To Hours Conversion.
 			{
 				System.out.println(" == Seconds To Hours Conversion == ");
 				System.out.println("Enter Seconds  : ");
@@ -112,7 +114,7 @@ public class Time_Converter {
 				System.out.println(m1 + " Seconds Is Equals To = " + dc1 + " Hours");
 				System.out.println();
 			}
-			else if( type == 6) 
+			else if( type == 6)  // Seconds To Minutes Conversion.
 			{
 				System.out.println(" == Seconds To Minutes Conversion == ");
 				System.out.println("Enter Seconds  : ");
